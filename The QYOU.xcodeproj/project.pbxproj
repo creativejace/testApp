@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC14F73D1A96F64800FACCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14F73C1A96F64800FACCBE /* AppDelegate.swift */; };
+		FC14F7401A96F64800FACCBE /* The_QYOU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC14F73E1A96F64800FACCBE /* The_QYOU.xcdatamodeld */; };
+		FC14F7421A96F64800FACCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14F7411A96F64800FACCBE /* ViewController.swift */; };
+		FC14F7451A96F64800FACCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14F7431A96F64800FACCBE /* Main.storyboard */; };
+		FC14F7471A96F64800FACCBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14F7461A96F64800FACCBE /* Images.xcassets */; };
+		FC14F74A1A96F64800FACCBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC14F7481A96F64800FACCBE /* LaunchScreen.xib */; };
+		FC14F7561A96F64800FACCBE /* The_QYOUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14F7551A96F64800FACCBE /* The_QYOUTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC14F7501A96F64800FACCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC14F72F1A96F64700FACCBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC14F7361A96F64800FACCBE;
+			remoteInfo = "The QYOU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC14F7371A96F64800FACCBE /* The QYOU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The QYOU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14F73B1A96F64800FACCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC14F73C1A96F64800FACCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC14F73F1A96F64800FACCBE /* The_QYOU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_QYOU.xcdatamodel; sourceTree = "<group>"; };
+		FC14F7411A96F64800FACCBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC14F7441A96F64800FACCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC14F7461A96F64800FACCBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC14F7491A96F64800FACCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC14F74F1A96F64800FACCBE /* The QYOUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The QYOUTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14F7541A96F64800FACCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC14F7551A96F64800FACCBE /* The_QYOUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_QYOUTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC14F7341A96F64800FACCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14F74C1A96F64800FACCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC14F72E1A96F64700FACCBE = {
+			isa = PBXGroup;
+			children = (
+				FC14F7391A96F64800FACCBE /* The QYOU */,
+				FC14F7521A96F64800FACCBE /* The QYOUTests */,
+				FC14F7381A96F64800FACCBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC14F7381A96F64800FACCBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC14F7371A96F64800FACCBE /* The QYOU.app */,
+				FC14F74F1A96F64800FACCBE /* The QYOUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC14F7391A96F64800FACCBE /* The QYOU */ = {
+			isa = PBXGroup;
+			children = (
+				FC14F73C1A96F64800FACCBE /* AppDelegate.swift */,
+				FC14F7411A96F64800FACCBE /* ViewController.swift */,
+				FC14F7431A96F64800FACCBE /* Main.storyboard */,
+				FC14F7461A96F64800FACCBE /* Images.xcassets */,
+				FC14F7481A96F64800FACCBE /* LaunchScreen.xib */,
+				FC14F73E1A96F64800FACCBE /* The_QYOU.xcdatamodeld */,
+				FC14F73A1A96F64800FACCBE /* Supporting Files */,
+			);
+			path = "The QYOU";
+			sourceTree = "<group>";
+		};
+		FC14F73A1A96F64800FACCBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC14F73B1A96F64800FACCBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC14F7521A96F64800FACCBE /* The QYOUTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC14F7551A96F64800FACCBE /* The_QYOUTests.swift */,
+				FC14F7531A96F64800FACCBE /* Supporting Files */,
+			);
+			path = "The QYOUTests";
+			sourceTree = "<group>";
+		};
+		FC14F7531A96F64800FACCBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC14F7541A96F64800FACCBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC14F7361A96F64800FACCBE /* The QYOU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC14F7591A96F64800FACCBE /* Build configuration list for PBXNativeTarget "The QYOU" */;
+			buildPhases = (
+				FC14F7331A96F64800FACCBE /* Sources */,
+				FC14F7341A96F64800FACCBE /* Frameworks */,
+				FC14F7351A96F64800FACCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The QYOU";
+			productName = "The QYOU";
+			productReference = FC14F7371A96F64800FACCBE /* The QYOU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC14F74E1A96F64800FACCBE /* The QYOUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC14F75C1A96F64800FACCBE /* Build configuration list for PBXNativeTarget "The QYOUTests" */;
+			buildPhases = (
+				FC14F74B1A96F64800FACCBE /* Sources */,
+				FC14F74C1A96F64800FACCBE /* Frameworks */,
+				FC14F74D1A96F64800FACCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC14F7511A96F64800FACCBE /* PBXTargetDependency */,
+			);
+			name = "The QYOUTests";
+			productName = "The QYOUTests";
+			productReference = FC14F74F1A96F64800FACCBE /* The QYOUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC14F72F1A96F64700FACCBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Sparks;
+				TargetAttributes = {
+					FC14F7361A96F64800FACCBE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FC14F74E1A96F64800FACCBE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FC14F7361A96F64800FACCBE;
+					};
+				};
+			};
+			buildConfigurationList = FC14F7321A96F64700FACCBE /* Build configuration list for PBXProject "The QYOU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC14F72E1A96F64700FACCBE;
+			productRefGroup = FC14F7381A96F64800FACCBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC14F7361A96F64800FACCBE /* The QYOU */,
+				FC14F74E1A96F64800FACCBE /* The QYOUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC14F7351A96F64800FACCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC14F7451A96F64800FACCBE /* Main.storyboard in Resources */,
+				FC14F74A1A96F64800FACCBE /* LaunchScreen.xib in Resources */,
+				FC14F7471A96F64800FACCBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14F74D1A96F64800FACCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC14F7331A96F64800FACCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC14F7421A96F64800FACCBE /* ViewController.swift in Sources */,
+				FC14F73D1A96F64800FACCBE /* AppDelegate.swift in Sources */,
+				FC14F7401A96F64800FACCBE /* The_QYOU.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14F74B1A96F64800FACCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC14F7561A96F64800FACCBE /* The_QYOUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC14F7511A96F64800FACCBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC14F7361A96F64800FACCBE /* The QYOU */;
+			targetProxy = FC14F7501A96F64800FACCBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC14F7431A96F64800FACCBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC14F7441A96F64800FACCBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC14F7481A96F64800FACCBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC14F7491A96F64800FACCBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC14F7571A96F64800FACCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC14F7581A96F64800FACCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC14F75A1A96F64800FACCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The QYOU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC14F75B1A96F64800FACCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The QYOU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC14F75D1A96F64800FACCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The QYOUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The QYOU.app/The QYOU";
+			};
+			name = Debug;
+		};
+		FC14F75E1A96F64800FACCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The QYOUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The QYOU.app/The QYOU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC14F7321A96F64700FACCBE /* Build configuration list for PBXProject "The QYOU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14F7571A96F64800FACCBE /* Debug */,
+				FC14F7581A96F64800FACCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC14F7591A96F64800FACCBE /* Build configuration list for PBXNativeTarget "The QYOU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14F75A1A96F64800FACCBE /* Debug */,
+				FC14F75B1A96F64800FACCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC14F75C1A96F64800FACCBE /* Build configuration list for PBXNativeTarget "The QYOUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14F75D1A96F64800FACCBE /* Debug */,
+				FC14F75E1A96F64800FACCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC14F73E1A96F64800FACCBE /* The_QYOU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC14F73F1A96F64800FACCBE /* The_QYOU.xcdatamodel */,
+			);
+			currentVersion = FC14F73F1A96F64800FACCBE /* The_QYOU.xcdatamodel */;
+			path = The_QYOU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC14F72F1A96F64700FACCBE /* Project object */;
+}
